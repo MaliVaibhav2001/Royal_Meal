@@ -1,0 +1,238 @@
+body {
+    font-family: 'Roboto', sans-serif!important;
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+    background-color: #030303;
+}
+
+.mainscreen
+{
+	min-height: 100vh;
+	width: 100%;
+	display: flex;
+    flex-direction: column;
+    /* background-color: #DFDBE5; */
+    /* background-image: url("https://wallpaperaccess.com/full/3063067.png"); */
+    /* background-color: #030303; */
+    color: #202020;
+}
+
+.card {
+	width: 100rem;
+    margin: auto;
+    background: white;
+    position:center;
+    align-self: center;
+    top: 50rem;
+    border-radius: 1.5rem;
+    box-shadow: 4px 3px 20px #3535358c;
+    display:flex;
+    flex-direction: row;
+    font-size: 2rem;
+}
+
+.leftside {
+	/* background: #030303; */
+	width: 40rem;
+	display: inline-flex;
+    align-items: center;
+    justify-content: center;
+	border-top-left-radius: 1.5rem;
+    border-bottom-left-radius: 1.5rem;
+    position: relative;
+}
+.pos{
+    position: absolute;
+    color: white;
+    width: 100%;
+    background-color: #202020;
+}
+
+.product {
+    object-fit: cover;
+	width: 20em;
+    height: 30em;
+    /* border-radius: 100%; */
+}
+
+.rightside {
+    background-color: #202020;
+	width: 60rem;
+	border-bottom-right-radius: 1.5rem;
+    border-top-right-radius: 1.5rem;
+    padding: 1rem 2rem 3rem 3rem;
+}
+.rightside a {
+    color: gold;
+    font-size: 2rem;
+    border-bottom: 2px solid gray;
+}
+.rightside  {
+    color: rgb(131, 127, 127);
+}
+
+p{
+    display:block;
+    /* font-size: 1.4rem; */
+    font-weight: 400;
+    margin: .8rem 0;
+}
+
+.inputbox
+{
+    color:#030303;
+	width: 100%;
+    padding: 0.5rem;
+    border: none;
+    border-bottom: 1.5px solid #ccc;
+    margin-bottom: 1rem;
+    border-radius: 0.3rem;
+    font-family: 'Roboto', sans-serif;
+    color: #615a5a;
+    font-size: 1.8rem;
+    font-weight: 500;
+  outline:none;
+  background-color: #202020;
+}
+
+.expcvv {
+    display:flex;
+    justify-content: space-between;
+    padding-top: 0.6rem;
+}
+
+.expcvv_text{
+    padding-right: 1rem;
+}
+.expcvv_text2{
+    padding:0 1rem;
+}
+
+.button{
+    background-color: #615a5a;
+    /* background: linear-gradient(
+135deg
+, #753370 0%, #298096 100%); */
+    padding: 15px;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    font-weight: 400;
+    font-size: 1.2rem;
+    margin-top: 1rerm;
+    width:100%;
+    letter-spacing: .11rem;
+    outline:none;
+    cursor: pointer;
+    font-size: 1.4rem;
+}
+
+.button:hover
+{
+	/* border: 2px solid #F29F05; */
+    background-color: black;
+    cursor: pointer;
+    transition: 0.3s;
+    color: white;
+}
+
+.check_img {
+    width: 100%;
+    /* float: left; */
+}
+/* **************** */
+.check {
+    float: left;
+    margin: 1rem;
+}
+
+.cart_prod {
+    float: left;
+    width: 40%;
+    background-color: #202020;
+    margin: 4rem;
+    height: 22rem;
+    
+}
+.prod {
+    float: left;
+}
+
+.marg_top{
+    margin-top: 10rem;
+}
+.wid {
+    width: 20rem;
+    margin: auto;
+    text-align: center;
+}
+.prod_1 {
+    /* margin-left: 6rem; */
+    padding: 3rem;
+    color: white;
+}
+.prod_1 h3{
+    margin: 1rem;
+}
+.prod_1 p {
+    margin: 1rem;
+}
+.prod_1 input{
+    width: 6rem;
+    background-color: #202020;
+    color: white;
+    font-size: 2rem;
+}
+
+
+@media only screen and (max-width: 700px) {
+    .card{
+        flex-direction: column;
+        width: auto;
+      
+    }
+
+    .leftside{
+        width: 100%;
+        border-top-right-radius: 0;
+        border-bottom-left-radius: 0;
+      border-top-right-radius:0;
+      border-radius:0;
+      /* display: none; */
+    }
+    .leftside img{
+        display: none;
+    }
+
+
+    .rightside{
+        width: 100%;
+        border-bottom-left-radius: 1.5rem;
+        padding:0.5rem 3rem 3rem 2rem;
+      border-radius:0;
+    }
+    .button{
+        width: 100%;
+    }
+
+    .product {
+        width: 100%;
+    }
+    .cart_prod {
+        width: 100%;
+        margin-left: 0rem;
+    }
+    .prod {
+        float: left;
+    }
+    .wid{
+        width: 17rem;
+        margin: auto;
+    }
+    .pos{
+        margin-bottom: 20rem;
+        width: 100%;
+    }
+    
+}
