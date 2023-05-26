@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web_Resto</title>
+        <link rel="shortcut icon" href="img/icon.png" type="image/svg+xml" style="width: 100%;">
+    <!-- StyleSheets -->
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/filter.css" />
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/booking.css">
+
+    <script src="https://kit.fontawesome.com/179b89618c.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <!-- Preloader -->
+    <div class="preloader">
+      <img src="./img/Loading.gif" alt="" />
+    </div> 
+
+
+    {{>header}}
+
+    <!-- Hero -->
+    <section>
+        <div class="hero">
+            <div class="text">
+                <h class="golden">FLAVORS FOR ROYALTY</h>
+                <h1>For the love of delicious <br> food</h1>
+                <p>Come with family & feel the joy of mouthwatering food</p>
+            </div>
+         </div>
+    </section>
+
+    
+    <!-- Menu -->
+    <section>
+      <div class="head_text">
+        <h class="golden" ><u>SPECIAL SELECTION</u></h>
+        <h1 >Delicious Menu</h1>
+      </div>
+      <div class="shell">
+        <div class="container">
+            <div class="row">
+            <a href="menu_card">
+              <div class="col-md-3">
+                <div class="wsk-cp-product">
+                <div class="wsk-cp-img">
+                    <img src="img/18.jpg" class="img-responsive" />
+                </div>
+                <div class="wsk-cp-text">
+                    <div class="category">
+                    <span>Special</span>
+                    </div>
+                    <div class="title-product">
+                    <h3>Breakfast</h3>
+                    </div>
+                    <div class="card-footer">
+                    <div class="wcf-left"><span class="price">150.00 <sub>RS</sub></span></div>
+                    <div class="wcf-right"><a href="#" class="buy-btn">ADD TO CART</a></div>
+                    </div>
+                </div>
+                </div>
+            </div>
+            </a>
+            <a href="menu_card">
+              <div class="col-md-3">
+                <div class="wsk-cp-product">
+                <div class="wsk-cp-img"><img src="img/panir.webp" alt="Product" class="img-responsive" /></div>
+                <div class="wsk-cp-text">
+                    <div class="category">
+                    <span>Special</span>
+                    </div>
+                    <div class="title-product">
+                    <h3>Main Course</h3>
+                    </div>
+                    <div class="card-footer">
+                    <div class="wcf-left"><span class="price">800.00 <sub>RS</sub></span></div>
+                    <div class="wcf-right"><a href="#" class="buy-btn">ADD TO CART</a></div>
+                    </div>
+                </div>
+                </div>
+            </div>
+            </a>
+            <a href="menu_card">
+              <div class="col-md-3">
+                <div class="wsk-cp-product">
+                <div class="wsk-cp-img"><img src="img/31.jpg" alt="Product" class="img-responsive" /></div>
+                <div class="wsk-cp-text">
+                    <div class="category">
+                    <span>Special</span>
+                    </div>
+                    <div class="title-product">
+                    <h3>Juse</h3>
+                    </div>
+                    <div class="card-footer">
+                    <div class="wcf-left"><span class="price">100.00 <sub>RS</sub></span></div>
+                    <div class="wcf-right"><a href="#" class="buy-btn">ADD TO CART</a></div>
+                    </div>
+                </div>
+                </div>
+            </div>
+            </a>
+            <a href="menu_card">
+              <div class="col-md-3">
+                <div class="wsk-cp-product">
+                <div class="wsk-cp-img"><img src="img/food.jpg" alt="Product" class="img-responsive" /></div>
+                <div class="wsk-cp-text">
+                    <div class="category">
+                    <span>Special</span>
+                    </div>
+                    <div class="title-product">
+                    <h3>Dishes</h3>
+                    </div>
+                    <div class="card-footer">
+                    <div class="wcf-left"><span class="price">500.00 <sub>RS</sub></span></div>
+                    <div class="wcf-right"><a href="#" class="buy-btn">ADD TO CART</a></div>
+                    </div>
+                </div>
+                </div>
+            </div>
+            </a>
+            </div>
+        </div>
+      </div>
+    </section>
+
+    
+    <!-- Offer -->
+    <section class="background_3">
+        <div class="head_text ">
+            <h class="golden" ><u>FLAVORS FOR ROYALTY</u></h>
+            <h1 >We Offer Top Notch</h1>
+        </div>
+        <section class="services" id="services">
+            <!-- <div class="top">
+            <h2><span class="yellow">Why</span> We are the Best</h2>
+            <p>
+                Lorem ipsum is placeholder text commonly used in the graphic, print,
+                and publishing industries for previewing layouts and visual mockups.
+                Lorem ipsum is placeholder.
+            </p>
+            </div> -->
+    
+        <div class="bottom">
+            <div class="box hover-zoom">
+                <img src="/img/img1.jpeg" alt="" />
+                <h4>Breakfast</h4>
+                <a href="#">View menu <img src="./images/btn-arrow.svg" alt="" /> </a>
+            </div>
+            <div class="box hover-zoom">
+                <img src="/img/img2.jpeg" alt=""  style="margin-top: 14rem;"/>
+                <h4>Appetizers</h4>
+                <a href="#">View menu <img src="./images/btn-arrow.svg" alt="" /> </a>
+            </div>
+            <div class="box hover-zoom">
+                <img src="/img/img3.jpeg" alt="" />
+                <h4>Drinks</h4>
+                <a href="#" >View menu <img src="./images/btn-arrow.svg" alt="" /> </a>
+            </div>
+            </div>
+        </section>
+    </section>
+    
+    <!-- third slide -->
+    <section class="background_1">
+        <section class="home" id="home">
+            <div class="content">
+                <p class="golden">OUR STORY</p>
+                <h1>Every Flavor <br> Tells a Story</span></h1>
+                <p>
+                    Delivero is a leading global online food delivery marketplace,
+                    connecting consumers and restaurants through its platform in 24
+                    countries.
+                </p>
+                <h3>Book Through Call</h3>
+                <a href="" type="Tells"><h4>+91 7498900373.</h4></a><br>
+                <a href="#" class="home-btn">READ MORE</a>
+            </div>
+            <div class="image">
+                <img src="/img/back1.jpeg" alt="" />
+            </div>
+            <img src="/img/shafe1.jpeg" alt="" class="shafe1">
+        </section>
+    </section>
+
+    <!-- Forth slide -->
+    <section class="background">
+        <section class="about" id="about">
+            <div class="image">
+            <img src="/img/asset 19.jpeg" alt="" />
+            </div>
+            <div class="content">
+                <img src="img/asset 21.png" alt="">
+            <p class="golden" style="text-align: left;">SPECIAL DISH</p>
+            <h3>Lobster Tortellini</h3>
+            <p>
+                Lorem ipsum dolor sit amet,adipiscing elit. Eu, montes, metus
+                porttitor consectetur pretium. Euismod imperdiet pellentesque cursus
+                in netus.
+            </p>
+            <h2><del>1000|~</del></h2>
+            <h1>800|~</h1>
+            <a href="#" class="btn">Make an Offer</a>
+            </div>
+        </section>
+    </section>
+
+
+
+    <!-- Video -->
+    <section>
+        <div class="hero_1">
+            <div class="text_1">
+                <h class="golden">AMAZING EXPERIENCE</h>
+                <h1>Watch Our Video</h1>
+                <a class="play-btn" href="#"></a>
+                <p>A modern restaurant with a menu that <br> will make your mouth water.</p>
+                <img src="img/asset 64.svg" alt="" style="height: auto;">
+                <h2 class="point">150+</h2>
+                <h5 class="sub_point">DAILY <br> ORDER</h5>
+                <h2 class="point">82+</h2>
+                <h5 class="sub_point">SPECIAL <br> DISHES</h5>
+                <h2 class="point">35+</h2>
+                <h5 class="sub_point">EXPERT <br> CHE</h5>
+                <h2 class="point">10+</h2>
+                <h5 class="sub_point">AWARDS <br> WON</h5>
+            </div>
+         </div>
+    </section>
+
+    <!-- chafe -->
+    <section class="services" id="services" style="background-color: #202020;">
+      <div class="head_text">
+          <h class="golden" ><u>EXPERIENCED TEAM</u></h>
+          <h1 >Meet Our Chef</h1>
+      </div>
+
+  <div class="bottom">
+      <div class="box">
+        <img src="img/asset 48.jpeg" alt="" />
+        <h4>Willium Joe</h4>
+        <a>MASTER CHEF</a>
+        <p>
+          Lorem ipsum dolor sit amet,adipiscing elit. Eu, montes, metus
+          porttitor consectetur pretium. Euismod imperdiet pellentesque cursus
+          in netus.
+        </p>
+      </div>
+      <div class="box">
+        <img src="img/asset 49.jpeg" alt="" />
+        <h4>Steave Den</h4>
+        <a>MASTER CHEF</a>
+        <p>
+          Lorem ipsum dolor sit amet,adipiscing elit. Eu, montes, metus
+          porttitor consectetur pretium. Euismod imperdiet pellentesque cursus
+          in netus.
+        </p>
+      </div>
+      <div class="box">
+        <img src="img/asset 50.jpeg" alt="" />
+        <h4>Lily Sopy</h4>
+        <a>MASTER CHEF</a>
+        <p>
+          Lorem ipsum dolor sit amet,adipiscing elit. Eu, montes, metus
+          porttitor consectetur pretium. Euismod imperdiet pellentesque cursus
+          in netus.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  
+  <!-- Booking -->
+  <div class="mainscreen">
+    <div class="card">
+      <div class="rightside">
+        <form action="index" method="POST">
+          <h1>Online Reservation</h1>
+          <h5>Booking request &nbsp;<a href="#"> 7498900373 </a> &nbsp;  or fill out the order form</h5>
+          <p>Your Name</p>
+          <input type="text" class="inputbox" name="reservname" required />
+          <p>Phone Number</p>
+          <input type="number" class="inputbox" name="reserphone"  required />
+
+          <p>persons</p>
+          <input type="number" class="inputbox" name="reserperson" placeholder="Persons">
+
+          {{!-- <select class="inputbox" name="card_type" id="card_type" required>
+            <option value="">--Select number of persons--</option>
+            <option value="Visa">1 Person</option>
+            <option value="RuPay">2 Persons</option>
+            <option value="MasterCard">3 Persons</option>
+            <option value="Visa">4 Persons</option>
+            <option value="RuPay">5 Persons</option>
+            <option value="MasterCard">6 Persons</option>
+          </select> --}}
+      <div class="expcvv">
+          <p class="expcvv_text">date</p>
+          <input type="date" class="inputbox" name="reserdate" id="exp_date" required />
+
+          <p class="expcvv_text2">Time</p>
+          <input type="time" class="inputbox" name="resertime" required />
+      </div>
+      <p>Any Requests?</p>
+      <input type="text" class="inputbox" name="resermessage">
+          <p></p>
+          <input class="button" type="submit" value="Book Table">
+          {{!-- <button type="submit" class="button">Book Table</button> --}}
+        </form>
+      </div>
+      <div class="leftside">
+        <img
+          src="img/asset 54.png"
+          class="product"
+          alt="Shoes"
+        />
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer start -->
+    {{>footer}}
+  <!-- Footer End -->
+
+
+
+{{!--  Go To Top  --}}
+{{>topscroll}}
+    <!-- Scripts -->
+     <script src="js/load.js"></script>
+    <script src="js/filter.js"></script>
+    <script src="js/Add.js"></script>
+  </body>
+</html>
